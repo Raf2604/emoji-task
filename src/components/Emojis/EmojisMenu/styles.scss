@@ -1,0 +1,20 @@
+.emojis_menu {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  div {
+    cursor: pointer;
+    height: 36px;
+    padding: 8px;
+    &:hover {
+      background-color: #dadada;
+    }
+    img {
+      width: 19px;
+      height: 19px;
+    }
+  }
+  .active_menu {
+    border-bottom: 2px solid #3899ec;
+  }
+}
